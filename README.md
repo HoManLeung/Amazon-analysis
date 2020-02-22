@@ -21,6 +21,8 @@ File order to run project
 
 For the exploratory data analysis, we explored the count of the overall column and the count of the verified column, categorize the reviews, and found the most frequent words in the dataset. We found that for the overall column there are more fours and fives than ones and twos. When examining the verified column, we saw that there is about 3 times as many true observations as false observations. When splitting the data into short and long reviews we saw that there are more short reviews than long reviews. The most common word in the dataset is movie. 
 
+![Screen Shot 2020-02-22 at 1 30 47 PM](https://user-images.githubusercontent.com/35823055/75097333-92c3dc00-5577-11ea-8253-ab42d8cdc6d5.png)
+
 ### 2. Data Processing
 
 In the data preprocessing step, we cleaned the text data. Punctuations, numbers and special characters were removed. Also, all words were lowercased. Next the words were tokenized and stop words were removed. The words were then stemmed using lemmatization. Next words that were not longer than 4 were removed. The last step was to split the data into train, validation, and test sets.
