@@ -35,7 +35,10 @@ In the machine learning step, we created a pipeline that used a count vectorizer
 
 In the validation step the trained model and pipeline was tested on data that the model has not seen before. The metric used to examine the results were ROC, accuracy, and f1 score. Also, recall and precision for one and zero was examined.
 
+![Screen Shot 2020-02-22 at 1 31 49 PM](https://user-images.githubusercontent.com/35823055/75097343-b6872200-5577-11ea-982e-c8f3db888bb3.png)
+
 ### 5. Testing 
 
 In the final step we create an application that exports if the review is verified or not.
+![Screen Shot 2020-02-22 at 1 32 28 PM](https://user-images.githubusercontent.com/35823055/75097350-cd2d7900-5577-11ea-8003-3256915eacec.png)
 
