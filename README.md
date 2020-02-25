@@ -25,11 +25,11 @@ For the exploratory data analysis, we explored the count of the overall column a
 
 ### 2. Data Processing
 
-In the data preprocessing step, we cleaned the text data. Punctuations, numbers and special characters were removed. Also, all words were lowercased. Next the words were tokenized and stop words were removed. The words were then stemmed using lemmatization. Next words that were not longer than 4 were removed. The last step was to split the data into train, validation, and test sets.
+In the data preprocessing step, we cleaned the text data. Punctuations, numbers and special characters were removed. Also, all words were lowercased. Next the words were tokenized and stop words were removed. The words were then stemmed using lemmatization. Next words that were not longer than 4 characters were removed. The last step was to split the data into train, validation, and test sets.
 
 ### 3. Machine Learning
 
-In the machine learning step, we created a pipeline that used a count vectorizer and the function IDF to transform the data. Then we train a basic logistic regression model to predict if the review was verified or not. The threshold was change to better fit the imbalanced dataset. Lastly the training data was tested on the model to see how the model was performing.
+In the machine learning step, we created a pipeline that used a count vectorizer and the function IDF to transform the data. Then we trained a basic logistic regression model to predict if the review was verified or not. The threshold was change to better fit the imbalanced dataset. Lastly the training data was tested on the model to see how the model was performing.
 
 ### 4. Validation
 
